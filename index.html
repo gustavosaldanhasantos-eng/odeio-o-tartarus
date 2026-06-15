@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Universe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-p5"> <header>
+        <div class="logo">PERSONA</div>
+        <nav>
+            <button class="btn-theme" onclick="changeTheme('p3')">Persona 3</button>
+            <button class="btn-theme" onclick="changeTheme('p4')">Persona 4</button>
+            <button class="btn-theme" onclick="changeTheme('p5')">Persona 5</button>
+        </nav>
+    </header>
 
+    <main>
+        <section class="hero">
+            <h1 id="hero-title">Take Your Heart</h1>
+            <p id="hero-desc">Explore o universo de uma das maiores franquias de RPG da Atlus. Alterne entre os temas acima para mudar a atmosfera do site!</p>
+        </section>
+
+        <section class="content-section">
+            <h2>Sobre a Franquia</h2>
+            <p>Persona é uma série de RPGs onde estudantes do ensino médio despertam manifestações físicas de suas psiques — conhecidas como <strong>Personas</strong> — para combater forças sobrenaturais e dilemas da sociedade humana.</p>
+            
+            <div class="card-container">
+                <div class="card">
+                    <h3>Velvet Room</h3>
+                    <p>"Um lugar entre o sonho e a realidade, a mente e a matéria." É aqui que a fusão e o fortalecimento de Personas acontecem sob a supervisão de Igor.</p>
+                </div>
+                <div class="card">
+                    <h3>Social Links</h3>
+                    <p>O coração do jogo. Fortalecer seus laços com amigos e aliados no mundo real concede bônus massivos e novas habilidades durante as batalhas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive-section">
+            <h2>Gerador de Frases da Velvet Room</h2>
+            <div class="quote-box">
+                <p id="quote-text">"Bem-vindo à Velvet Room..."</p>
+                <button id="quote-btn">Obter Conselho</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Persona Fan Site. Desenvolvido para fãs da Atlus.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
